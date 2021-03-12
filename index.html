@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/glide.core.css">
+    <link rel="stylesheet" href="css/glide.theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header" id="header">
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__hamburger">
+                        <img src="images/meat.svg" alt="">
+                    </div>
+                    <div class="nav__logo">
+                        <a href="/" class="scroll-link">PHONE</a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">Phone</span>
+                            <p class="close__toggle">
+                                <img src="images/cancel.svg" alt="">
+                            </p>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll-link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#category" class="nav__link scroll-link">Category</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#news" class="nav__link scroll-link">Blog</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link scroll-link">Contact</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="nav__icons">
+                       <a href="#" class="icon__item">
+                            <img src="images/boy.svg" alt="">
+                       </a> 
+                       <a href="#" class="icon__item">
+                        <img src="images/loupe.svg" alt="">
+                   </a> 
+                   <a href="#" class="icon__item">
+                    <img src="images/shopping-basket.svg" alt="">
+                   </a> 
+                   <span id="cart__total">0</span>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <div class="hero">
+            <div class="glide" id="glide_1">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <span>New Inspiration 2020</span>
+                                <span>PHONE MADE FOR YOU</span>
+                                <p>Trending from mobile and headphone style collection</p>
+                                <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                            </div>
+                            <div class="hero__right">
+                                <div class="hero__img-container">
+                                    <img src="illustration/apple2.jpg" alt="" class="banner_01">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <span>New Inspiration 2020</span>
+                                <span>PHONE MADE FOR YOU</span>
+                                <p>Trending from mobile and headphone style collection</p>
+                                <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                            </div>
+                            <div class="hero__right">
+                                <div class="hero__img-container">
+                                    <img src="illustration/apple.jpg" alt="" class="banner_02">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> <img src="images/back.svg" alt=""></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> <img src="images/next.svg" alt=""></button>
+                </div>
+              </div>
+        </div>    
+    
+    </header>
+    <main id="main">
+        <section class="section collection" id="collection">
+            <div class="container">
+                <div class="collection__container">
+                    <div class="collection__box">
+                        <div class="img__container">
+                            <img src="collections/casque.jpg" alt="" class="collection_01">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>New Colors Introduced</span>
+                                <h1>HEADPHONE</h1>
+                                <a href="#">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collection__box">
+                        <div class="img__container">
+                            <img src="collections/phone.jpg" alt="" class="collection_02">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>Phone Device Preset</span>
+                                <h1>SMARTPHONES</h1>
+                                <a href="#">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="section latest__products" id="latest">
+                <div class="title__container">
+                    <div class="section__title active" data-id="Latest Products">
+                        <span class="dot"></span>
+                        <h1 class="primary__title">Latest Products</h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="glide" id="glide_2">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides latest-center">
+                                <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="products/iphone.jpg" alt="">
+                                    </div>
+                                    <div class="product__footer">
+                                        <h3>Apple iPhone 11</h3>
+                                        <div class="rating">
+                                                <img src="images/star.svg" alt="">
+                                                <img src="images/star.svg" alt="">
+                                                <img src="images/star.svg" alt="">
+                                                <img src="images/star.svg" alt="">
+                                                <img src="images/star2.svg" alt="">
+                                        </div>
+                                        <div class="product__price">
+                                            <h4>$750</h4>
+                                            <a href="#"><button type="button" class="product__btn">Ajouter au panier</button></a>
+                                        </div>
+                                        <ul>
+                                                <a href="#">
+                                                    <img src="images/view.svg" alt="">
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/like.svg" alt="">
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/exchange.svg" alt="">
+                                                </a> 
+    
+                                        </ul>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="products/head.jpg" alt="">
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>HeadPhones</h3>
+                                            <div class="rating">
+                                                    <img src="images/star.svg" alt="">
+                                                    <img src="images/star.svg" alt="">
+                                                    <img src="images/star.svg" alt="">
+                                                    <img src="images/star.svg" alt="">
+                                                    <img src="images/star2.svg" alt="">
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$600</h4>
+                                                <a href="#"><button type="button" class="product__btn">Ajouter au panier</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <img src="images/view.svg" alt="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="images/like.svg" alt="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="images/exchange.svg" alt="">
+                                                    </a> 
+        
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                        <div class="product">
+                                            <div class="product__header">
+                                                <img src="products/samsung.png" alt="">
+                                            </div>
+                                            <div class="product__footer">
+                                                <h3>Samsung</h3>
+                                                <div class="rating">
+                                                        <img src="images/star.svg" alt="">
+                                                        <img src="images/star.svg" alt="">
+                                                        <img src="images/star.svg" alt="">
+                                                        <img src="images/star.svg" alt="">
+                                                        <img src="images/star2.svg" alt="">
+                                                </div>
+                                                <div class="product__price">
+                                                    <h4>$600</h4>
+                                                    <a href="#"><button type="button" class="product__btn">Ajouter au panier</button></a>
+                                                </div>
+                                                <ul>
+                                                        <a href="#">
+                                                            <img src="images/view.svg" alt="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="images/like.svg" alt="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="images/exchange.svg" alt="">
+                                                        </a> 
+            
+                                                </ul>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="glide__slide">
+                                            <div class="product">
+                                                <div class="product__header">
+                                                    <img src="products/airpod.jpg" alt="">
+                                                </div>
+                                                <div class="product__footer">
+                                                    <h3>Air Pod</h3>
+                                                    <div class="rating">
+                                                            <img src="images/star.svg" alt="">
+                                                            <img src="images/star.svg" alt="">
+                                                            <img src="images/star.svg" alt="">
+                                                            <img src="images/star.svg" alt="">
+                                                            <img src="images/star2.svg" alt="">
+                                                    </div>
+                                                    <div class="product__price">
+                                                        <h4>$250</h4>
+                                                        <a href="#"><button type="button" class="product__btn">Ajouter au panier</button></a>
+                                                    </div>
+                                                    <ul>
+                                                            <a href="#">
+                                                                <img src="images/view.svg" alt="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="images/like.svg" alt="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="images/exchange.svg" alt="">
+                                                            </a> 
+                
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                </li>
+                                <li class="glide__slide">
+                                                <div class="product">
+                                                    <div class="product__header">
+                                                        <img src="products/mac.jpg" alt="">
+                                                    </div>
+                                                    <div class="product__footer">
+                                                        <h3>mac</h3>
+                                                        <div class="rating">
+                                                                <img src="images/star.svg" alt="">
+                                                                <img src="images/star.svg" alt="">
+                                                                <img src="images/star.svg" alt="">
+                                                                <img src="images/star.svg" alt="">
+                                                                <img src="images/star2.svg" alt="">
+                                                        </div>
+                                                        <div class="product__price">
+                                                            <h4>$1600</h4>
+                                                            <a href="#"><button type="button" class="product__btn">Ajouter au panier</button></a>
+                                                        </div>
+                                                        <ul>
+                                                                <a href="#">
+                                                                    <img src="images/view.svg" alt="">
+                                                                </a>
+                                                                <a href="#">
+                                                                    <img src="images/like.svg" alt="">
+                                                                </a>
+                                                                <a href="#">
+                                                                    <img src="images/exchange.svg" alt="">
+                                                                </a> 
+                    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                </li>                
+                            </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> <img src="images/back.svg" alt=""></button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> <img src="images/next.svg" alt=""></button>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+        
+        <section class="category__section section" id="category">
+            <div class="tab__list">
+                <div class="title__container tabs">
+                    <div class="section_titles category__titles">
+                        <div class="section__title filter-btn" data-id="">
+                            <span class="dot">
+                                <h1 class="primary__title">
+                                    All Products
+                                </h1>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="section_titles category__titles active">
+                        <div class="section__title filter-btn" data-id="All products">
+                            <span class="dot">
+                                <h1 class="primary__title">
+                                    All Products
+                                </h1>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="section_titles">
+                        <div class="section__title filter-btn" data-id="Trending Products">
+                            <span class="dot">
+                                <h1 class="primary__title">
+                                    Trending Products
+                                </h1>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="section_titles">
+                        <div class="section__title filter-btn" data-id="Special Products">
+                            <span class="dot">
+                                <h1 class="primary__title">
+                                    Special Products
+                                </h1>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="section_titles">
+                        <div class="section__title filter-btn" data-id="Featured Products">
+                            <span class="dot">
+                                <h1 class="primary__title">
+                                    Featured Products
+                                </h1>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__container">
+                    <div class="category__center">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+      
+    </main>
+    
+
+    <!--<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>">-->
+    <script src="js/glide.js"></script>
+    <!--<script>
+  new Glide('.glide').mount()
+</script>
+-->
+<script src="js/index.js"></script>
+<script src="js/products.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>
